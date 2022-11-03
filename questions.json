@@ -1,26 +1,26 @@
 [
   {
-    "question": "Inside which HTML element do we put the JavaScript??",
+    "question": "How many spikes are on the Statue of Liberty's crown?",
     "choice1": "<script>",
     "choice2": "<javascript>",
     "choice3": "<js>",
     "choice4": "<scripting>",
-    "answer": 1
+    "answer": 7
   },
   {
-    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+    "question": "How many pounds are in a ton?",
     "choice1": "<script href='xxx.js'>",
     "choice2": "<script name='xxx.js'>",
     "choice3": "<script src='xxx.js'>",
     "choice4": "<script file='xxx.js'>",
-    "answer": 3
+    "answer": 2000
   },
   {
-    "question": " How do you write 'Hello World' in an alert box?",
+    "question": "How many sides does an octagon have?",
     "choice1": "msgBox('Hello World');",
     "choice2": "alertBox('Hello World');",
     "choice3": "msg('Hello World');",
     "choice4": "alert('Hello World');",
-    "answer": 4
+    "answer": 8
   }
 ]
