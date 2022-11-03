@@ -1,6 +1,6 @@
 :root {
-  background-color: #ecf5ff;
-  font-size: 62.5%;
+  background-color: #6495E;
+  font-size: 58%;
 }
 
 * {
@@ -19,25 +19,25 @@ h4 {
 }
 
 h1 {
-  font-size: 5.4rem;
-  color: #56a5eb;
+  font-size: 5rem;
+  color: #B22222;
   margin-bottom: 5rem;
 }
 
 h1 > span {
-  font-size: 2.4rem;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 480;
 }
 
 h2 {
-  font-size: 4.2rem;
-  margin-bottom: 4rem;
-  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  font-weight: 650;
 }
 
 h3 {
-  font-size: 2.8rem;
-  font-weight: 500;
+  font-size: 3.2rem;
+  font-weight: 550;
 }
 
 /* UTILITIES */
@@ -48,7 +48,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 80rem;
+  max-width: 90rem;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -85,18 +85,18 @@ h3 {
   padding: 1rem 0;
   width: 20rem;
   text-align: center;
-  border: 0.1rem solid #56a5eb;
+  border: 0.1rem solid #228B22;
   margin-bottom: 1rem;
   text-decoration: none;
-  color: #56a5eb;
+  color: #E9967A;
   background-color: white;
 }
 
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(30, 140, 220, 0.5);
   transform: translateY(-0.1rem);
-  transition: transform 150ms;
+  transition: transform 130ms;
 }
 
 .btn[disabled]:hover {
@@ -117,9 +117,9 @@ input {
   margin-bottom: 1rem;
   width: 20rem;
   padding: 1.5rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   border: none;
-  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(60, 42, 48, 0.5);
 }
 
 input::placeholder {
