@@ -1,26 +1,26 @@
 [
   {
     "question": "How many spikes are on the Statue of Liberty's crown?",
-    "choice1": "<script>",
-    "choice2": "<javascript>",
-    "choice3": "<js>",
-    "choice4": "<scripting>",
+    "choice1": "10",
+    "choice2": "6",
+    "choice3": "3",
+    "choice4": "7",
     "answer": 7
   },
   {
     "question": "How many pounds are in a ton?",
-    "choice1": "<script href='xxx.js'>",
-    "choice2": "<script name='xxx.js'>",
-    "choice3": "<script src='xxx.js'>",
-    "choice4": "<script file='xxx.js'>",
+    "choice1": "1000",
+    "choice2": "2000",
+    "choice3": "500",
+    "choice4": "100",
     "answer": 2000
   },
   {
     "question": "How many sides does an octagon have?",
-    "choice1": "msgBox('Hello World');",
-    "choice2": "alertBox('Hello World');",
-    "choice3": "msg('Hello World');",
-    "choice4": "alert('Hello World');",
+    "choice1": "6",
+    "choice2": "9",
+    "choice3": "8",
+    "choice4": "12",
     "answer": 8
   }
 ]
