@@ -7,6 +7,10 @@
   background-color: white;
 }
 
+h1 {
+  font-size: 80px;
+}
+
 .choice-container:hover {
   cursor: pointer;
   box-shadow: 0 0.5rem 2rem 0 rgba(96, 166, 206, 0.5);
