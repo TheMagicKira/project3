@@ -13,6 +13,20 @@ let availableQuesions = [];
 
 let questions = [];
 
+var sec = 0;
+
+function pad(val) {
+    return val > 9 ? val : "0" + val;
+}
+var timer = setInterval(function () {
+    document.getElementById("seconds").innerHTML = pad(++sec % 60);
+    document.getElementById("minutes").innerHTML = pad(parseInt(sec / 60, 10));
+}, 1000);
+
+setTimeout(function () {
+    clearInterval(timer);
+}, 11000);
+
 fetch(
     'https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple'
 )
