@@ -57,15 +57,6 @@ startGame = () => {
     game.classList.remove('hidden');
     loader.classList.add('hidden');
 };
-    var sec = 0;
-    function pad ( val ) { return val > 9 ? val : "0" + val; }
-    setInterval( function(){
-        $("#seconds").html(pad(++sec%60));
-        $("#minutes").html(pad(parseInt(sec/60,10)));
-    }, 1000);
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<span id="minutes"></span>:<span id="seconds"></span>
 
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
